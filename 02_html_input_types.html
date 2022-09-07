@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Week2 Practice</title>
+</head>
+<body>
+    <form action=""/registration" method="POST">
+        <label for="username">Username:</label><br>
+        <input type="text" name="username"><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" /><br>
+        <input type="submit" /><br><br>
+
+        <input type="checkbox" name="dog" value="Dog" />
+        <label for="dog">I own a dog</label><br>
+        <input type="checkbox" name="cat" value="Cat" />
+        <label for="dog">I own a cat</label><br><br>
+    
+        <fieldset>
+            <!-- names have to be the same in order to be uniquely selected -->
+                <input type="radio" id="right" name="ratio" value="Right" checked />
+                <label for="right">I am right handed</label><br>
+                <input type="radio" id="left" name="ratio" value="Left" />
+                <label for="left">I am left-handed</label><br>
+
+        </fieldset>
+
+        <br><br>
+
+        <textarea name="nultiline" rows="5"></textarea>
+
+        <br><br>
+        
+        <select name="food">
+            <option value="chocolate">Chocolate</option>
+            <option value="vanilla">Vanilla</option>
+        </select>
+    </form>
+</body>
